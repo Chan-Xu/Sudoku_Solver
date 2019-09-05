@@ -11,10 +11,10 @@ For more details, please read [Report.pdf](https://github.com/Chan-Xu/Sudoku_Sol
 ## Testing
 **Unsolved Easy Sudoku**
 
-• fromString        Time: 0.002 sec
-
-• toString          Time: 0.000 sec
-• okSudoku          Time: 0.001 sec
-
-• isSudoku          Time: 0.000 sec
-• update            Time: 0.000 sec
+--|Time
+--|--
+fromString|0.002 sec
+toString|0.000 sec
+okSudoku|0.001 sec
+isSudoku|0.000 sec
+update|0.000 sec
