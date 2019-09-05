@@ -1,5 +1,5 @@
 # Sudoku_Solver
-Simple Sudoku Solver in Haskell (Pure Functional). Haskell数独求解器
+Simple Sudoku Solver in Haskell (Pure Functional). Haskell数独求解器 - ANU@COMP1100 Assignment 3
 
 ## Algorithm
 **Backtracking/Brute Force:**
