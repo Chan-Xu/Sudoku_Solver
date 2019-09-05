@@ -8,13 +8,46 @@ The solver searches the puzzle from left to right and from top to down, which tr
 
 For more details, please read [Report.pdf](https://github.com/Chan-Xu/Sudoku_Solver/blob/master/Report.pdf)
 
-## Testing
+## Testing Report
 **Unsolved Easy Sudoku**
 
-|Time
---|--
-fromString|0.002 sec
-toString|0.000 sec
-okSudoku|0.001 sec
-isSudoku|0.000 sec
-update|0.000 sec
+--|--|Time
+--|--|--
+fromString|True|0.002 sec
+toString|True|0.000 sec
+okSudoku|True|0.001 sec
+isSudoku|True|0.000 sec
+update|True|0.000 sec
+
+**Solved Easy Sudoku**
+
+--|--|Time
+--|--|--
+fromString|True|0.003 sec
+toString|True|0.000 sec
+okSudoku|True|0.002 sec
+noBlanks|True|0.000 sec
+solve|True|0.002 sec
+
+**Unsolved Hard Sudoku**
+
+--|--|Time
+--|--|--
+fromString|True|0.005 sec
+toString|True|0.001 sec
+okSudoku|True|0.002 sec
+isSudoku|True|0.000 sec
+update|True|0.001 sec
+
+**Solved Hard Sudoku**
+
+--|--|Time
+--|--|--
+fromString|True|0.005 sec
+toString|True|0.001 sec
+okSudoku|True|0.003 sec
+noBlanks|True|0.001 sec
+solve|True|0.004 sec
+
+
+
