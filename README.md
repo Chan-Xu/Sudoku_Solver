@@ -11,7 +11,7 @@ For more details, please read [Report.pdf](https://github.com/Chan-Xu/Sudoku_Sol
 ## Testing
 **Unsolved Easy Sudoku**
 
---|Time
+|Time
 --|--
 fromString|0.002 sec
 toString|0.000 sec
