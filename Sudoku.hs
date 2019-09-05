@@ -1,7 +1,5 @@
 -- Name: Chan Xu
 -- UID: u6233112
--- Collaborators: Jiafan Zhang(u6334938)
---                Zixun Wu(u6193344)
 module Sudoku
   ( allBlanks
   , isSudoku
@@ -152,7 +150,6 @@ allBlanks = Sudoku ( replicate 9 ( replicate 9 Nothing ))
 -- >>> isSudoku (Sudoku (tail (cells example)))
 -- False
 
--- Jiafan Zhang told me that I can use 'cells' function from line 36.
 isSudoku :: Sudoku -> Bool
 isSudoku (Sudoku s) = length s == 9 && length (cells(Sudoku s)) == 9
 
@@ -242,7 +239,7 @@ cols = transpose
     [Nothing,Just 2,Just 8,Nothing,Nothing,Just 9,Nothing,Nothing,Nothing],
     [Just 9,Nothing,Nothing,Nothing,Just 6,Nothing,Nothing,Just 4,Just 3]]
 -}
--- reference Zixun Wu (u6193344)
+
 boxs :: Matrix a -> [Block a]
 boxs matrix = map concat [(map (take 3 . drop i) . take 3 . drop j) matrix | i <- [0, 3, 6], j <- [0, 3, 6]]
 
